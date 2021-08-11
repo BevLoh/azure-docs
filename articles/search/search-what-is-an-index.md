@@ -156,7 +156,7 @@ Also not reflected in the above table is the impact of [analyzers](search-analyz
 
 ## About `corsOptions`
 
-Index schemas include a section for setting `corsOptions`. Client-side JavaScript cannot call any APIs by default since the browser will prevent all cross-origin requests. To allow cross-origin queries to your index, enable CORS (Cross-Origin Resource Sharing) by setting the **corsOptions** attribute. For security reasons, only query APIs support CORS. 
+Index schemas include a section for setting `corsOptions`. Client-side JavaScript cannot call any APIs by default since the browser will prevent all cross-origin requests. To allow cross-origin queries to your index, enable CORS (Cross-Origin Resource Sharing) by setting the **corsOptions** attribute. For security reasons, only query APIs support CORS. With RBAC, APIs that require the Microsoft.Search/searchServices/indexes/documents/read permission are supported.
 
 The following options can be set for CORS:
 
