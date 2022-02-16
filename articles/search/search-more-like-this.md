@@ -20,7 +20,7 @@ ms.date: 10/06/2021
 
 By default, the contents of all top-level searchable fields are considered. If you want to specify particular fields instead, you can use the `searchFields` parameter. 
 
-`MoreLikeThis` on searchable sub-fields in a [complex type](search-howto-complex-data-types.md) is not supported. For indexes that have these types of fields, `searchFields` parameter must be used.
+`MoreLikeThis` on searchable sub-fields in a [complex type](search-howto-complex-data-types.md) is not supported. For indexes that have these types of fields, `searchFields` parameter must be used to specify the non-complex fields.
 
 ## Examples
 
